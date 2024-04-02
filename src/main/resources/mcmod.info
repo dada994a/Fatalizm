@@ -1,0 +1,19 @@
+[
+  {
+    "modid": "fatalizm",
+    "name": "FatalizmClient",
+    "description": "FatalizmClient for pvp and pve",
+    "version": "b1.2.3",
+    "mcversion": "1.12.2",
+    "logoFile": "fatalizm.png",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Hypinohaizin"
+    ],
+    "screenshots": [],
+    "dependencies": [
+      "A lot of shit pastes phobos and other clients."
+    ]
+  }
+]
