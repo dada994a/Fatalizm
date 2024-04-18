@@ -233,11 +233,11 @@ public class Chat extends Module {
             }
             switch (suffix.getValue()) {
                 case FatalizmClient: {
-                    s = s +  (check() ? " &r" : " ")   + "｜ғᴀᴛᴀʟɪᴢᴍᴄʟɪᴇɴᴛ ᴛᴇᴀᴍ ғᴀᴛᴀʟɪᴢᴍ";
+                    s = s +  (check() ? " &r" : " ")   + "｜ғᴀᴛᴀʟɪᴢᴍᴄʟɪᴇɴᴛ";
                     break;
                 }
                 case Fatalizm: {
-                    s = s +  (check() ? " &r" : " ")   + "｜ғᴀᴛᴀʟɪᴢᴍ ᴛᴇᴀᴍ ғᴀᴛᴀʟɪᴢᴍ";
+                    s = s +  (check() ? " &r" : " ")   + "｜ғᴀᴛᴀʟɪᴢᴍ ";
                     break;
                 }
                 case Custom: {

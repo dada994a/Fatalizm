@@ -15,8 +15,8 @@ import java.util.Random;
 public
 class Spammer extends Module {
 
-    private static final String fileName = "Forever/util/Spammer.txt";
-    private static final String defaultMessage =  " The Fatalizm on top ";
+    private static final String fileName = "Fatalizm/util/Spammer.txt";
+    private static final String defaultMessage =  " Fatalizm on top ";
     private static final List<String> spamMessages = new ArrayList();
     private static final Random rnd = new Random();
     private final TimerUtil timerUtil = new TimerUtil();

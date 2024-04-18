@@ -16,7 +16,7 @@ public class CSGOWatermark extends HUD {
 
     public void drawCsgoWatermark() {
         int padding = 5;
-        message = "FatalizmClient b1.2.3 | " + mc.player.getName() + " | " + serverManager.getPing() + "ms";
+        message = "FatalizmClient DEV | " + mc.player.getName() + " | " + serverManager.getPing() + "ms";
         Integer textWidth = mc.fontRenderer.getStringWidth(message);
         Integer textHeight = mc.fontRenderer.FONT_HEIGHT;
         RenderUtil.drawRectangleCorrectly(X.getValue() - 4, Y.getValue() - 4, textWidth + 16, textHeight + 12, ColorUtil.toRGBA(0, 255, 255, 255));
